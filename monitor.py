@@ -45,7 +45,11 @@ def check_for_updates():
             previous.splitlines(), latest.splitlines(), lineterm=""
         )
         new_lines = [line[1:] for line in diff if line.startswith("+") and not line.startswith("+++")]
-        body = "🚨 New internship listing(s) added:\n\n" + "\n".join(new_lines)
+        body = (
+            "New internship listing(s) added:\n\n"
+            + "\n".join(new_lines)
+            + "\n\nView them here: https://github.com/vanshb03/Summer2026-Internships"
+        )
         send_email("New Internship Alert", body)
         print("Change detected and email sent.")
         with open(STORED_FILE, "w", encoding="utf-8") as f:
