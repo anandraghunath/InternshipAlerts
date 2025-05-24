@@ -3,6 +3,7 @@ import smtplib
 import requests
 import difflib
 from email.mime.text import MIMEText
+import datetime
 
 # Config
 REPO_RAW_URL = "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/main/README.md"
@@ -18,8 +19,11 @@ def fetch_readme():
     return response.text
 
 def send_email(subject, body):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    unique_subject = f"{subject} - {timestamp}"
+
     msg = MIMEText(body, "plain")
-    msg["Subject"] = subject
+    msg["Subject"] = unique_subject
     msg["From"] = EMAIL_ADDRESS
     msg["To"] = TO_EMAIL
 
