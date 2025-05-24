@@ -35,6 +35,9 @@ def send_email(subject, body):
         server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
         server.send_message(msg)
 
+    requests.post("https://ntfy.sh/anand_intern_alerts",
+    data="New internship listing found".encode(encoding='utf-8'))
+
 def check_for_updates():
     latest = fetch_readme()
 
