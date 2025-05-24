@@ -4,6 +4,7 @@ import requests
 import difflib
 from email.mime.text import MIMEText
 import datetime
+from zoneinfo import ZoneInfo 
 
 # Config
 REPO_RAW_URL = "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/main/README.md"
@@ -13,13 +14,15 @@ EMAIL_ADDRESS = os.getenv("FROM_EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.getenv("FROM_EMAIL_PASSWORD")
 TO_EMAIL = os.getenv("TO_EMAIL_ADDRESS")  # you can change this if needed
 
+western = ZoneInfo("America/Los_Angeles")  # Adjust timezone as needed
+
 def fetch_readme():
     response = requests.get(REPO_RAW_URL)
     response.raise_for_status()
     return response.text
 
 def send_email(subject, body):
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.datetime.now(western).strftime("%Y-%m-%d %I:%M:%S %p")
     unique_subject = f"{subject} - {timestamp}"
 
     msg = MIMEText(body, "plain")
