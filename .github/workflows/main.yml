@@ -23,7 +23,7 @@ jobs:
 
       - name: Run monitor script
         env:
-          EMAIL_ADDRESS: ${{ secrets.FROM_EMAIL_ADDRESS }}
-          EMAIL_PASSWORD: ${{ secrets.FROM_EMAIL_PASSWORD }}
-          TO_EMAIL: ${{ secrets.TO_EMAIL_ADDRESS }}
+          FROM_EMAIL_ADDRESS: ${{ secrets.FROM_EMAIL_ADDRESS }}
+          FROM_EMAIL_PASSWORD: ${{ secrets.FROM_EMAIL_PASSWORD }}
+          TO_EMAIL_ADDRESS: ${{ secrets.TO_EMAIL_ADDRESS }}
         run: python monitor.py
