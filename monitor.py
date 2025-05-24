@@ -60,5 +60,5 @@ def send_test_email():
     print("Test email sent!")
 
 if __name__ == "__main__":
-    send_test_email()  # Uncomment to send a test email
+    #send_test_email()  # Uncomment to send a test email
     check_for_updates()
