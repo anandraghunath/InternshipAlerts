@@ -13,6 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Restore cached last_readme
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: last_readme.md
+          key: internship-readme-cache
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -27,3 +34,9 @@ jobs:
           FROM_EMAIL_PASSWORD: ${{ secrets.FROM_EMAIL_PASSWORD }}
           TO_EMAIL_ADDRESS: ${{ secrets.TO_EMAIL_ADDRESS }}
         run: python monitor.py
+
+      - name: Save cached last_readme
+        uses: actions/cache@v3
+        with:
+          path: last_readme.md
+          key: internship-readme-cache
