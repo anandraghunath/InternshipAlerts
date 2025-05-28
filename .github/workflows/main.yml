@@ -2,7 +2,7 @@ name: Internship Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
 
 jobs:
@@ -13,13 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Restore cached last_readme
-        uses: actions/cache@v3
-        id: cache
-        with:
-          path: last_readme.md
-          key: internship-readme-cache
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -28,6 +21,12 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Download previous README artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: last-readme
+        continue-on-error: true  # Allows it to proceed if this is the first run
+
       - name: Run monitor script
         env:
           FROM_EMAIL_ADDRESS: ${{ secrets.FROM_EMAIL_ADDRESS }}
@@ -35,8 +34,8 @@ jobs:
           TO_EMAIL_ADDRESS: ${{ secrets.TO_EMAIL_ADDRESS }}
         run: python monitor.py
 
-      - name: Save cached last_readme
-        uses: actions/cache@v3
+      - name: Upload updated README
+        uses: actions/upload-artifact@v4
         with:
+          name: last-readme
           path: last_readme.md
-          key: internship-readme-cache
