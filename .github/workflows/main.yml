@@ -41,9 +41,4 @@ jobs:
           git diff --quiet --cached || git commit -m "Update last_readme.md snapshot"
 
       - name: Push changes if any
-        run: |
-          if ! git diff --quiet HEAD; then
-            git push
-          else
-            echo "No changes to push"
-          fi
+        run: git push
