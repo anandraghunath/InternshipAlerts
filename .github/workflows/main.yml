@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full git history for commits
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -21,12 +23,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Download previous README artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: last-readme
-        continue-on-error: true  # Allows it to proceed if this is the first run
-
       - name: Run monitor script
         env:
           FROM_EMAIL_ADDRESS: ${{ secrets.FROM_EMAIL_ADDRESS }}
@@ -34,8 +30,20 @@ jobs:
           TO_EMAIL_ADDRESS: ${{ secrets.TO_EMAIL_ADDRESS }}
         run: python monitor.py
 
-      - name: Upload updated README
-        uses: actions/upload-artifact@v4
-        with:
-          name: last-readme
-          path: last_readme.md
+      - name: Configure git for pushing
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit updated last_readme.md if changed
+        run: |
+          git add last_readme.md
+          git diff --quiet --cached || git commit -m "Update last_readme.md snapshot"
+
+      - name: Push changes if any
+        run: |
+          if ! git diff --quiet HEAD; then
+            git push
+          else
+            echo "No changes to push"
+          fi
