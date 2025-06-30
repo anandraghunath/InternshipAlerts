@@ -46,6 +46,11 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 
 | Company | Role | Location | Application/Link | Date Posted |
 | ------- | ---- | -------- | ---------------- | ----------- |
+| Walleye Capital | Equity Volatility Quant Researcher Intern | Miami, FL | <a href="https://job-boards.greenhouse.io/walleyecapital-external-internships/jobs/4572985006?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 29 |
+| ↳ | Quantitative Developer Intern | Boston, MA | <a href="https://job-boards.greenhouse.io/walleyecapital-external-internships/jobs/4565291006?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 29 |
+| ↳ | Quantitative Researcher Intern | Boston, MA | <a href="https://job-boards.greenhouse.io/walleyecapital-external-internships/jobs/4565293006?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 29 |
+| ↳ | Risk Quant Research Intern | New York, NY | <a href="https://job-boards.greenhouse.io/walleyecapital-external-internships/jobs/4565276006?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 29 |
+| ↳ | Technology Intern | New York, NY | <a href="https://job-boards.greenhouse.io/walleyecapital-external-internships/jobs/4565278006?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 29 |
 | Radix Trading | Quantitative Technologist Intern | Chicago, IL | <a href="https://boards.greenhouse.io/embed/job_app?token=7842108002&utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 26 |
 | Merck | IT Intern | Rahway, NJ</br>West Point, PA</br>Austin, TX | <a href="https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2026-University-Recruiting---IT-Emerging-Talent-Summer-Intern-Program--Hybrid-_R355518-1?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 26 |
 | Lockheed Martin | Software Engineering Intern 🇺🇸 | Littleton, Colorado | <a href="https://www.lockheedmartinjobs.com/job/littleton/software-engineering-intern/694/82475330752?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jun 26 |
