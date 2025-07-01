@@ -10,11 +10,9 @@ from zoneinfo import ZoneInfo
 REPO_RAW_URL = "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/main/README.md"
 STORED_FILE = "last_readme.md"
 
-# EMAIL_ADDRESS = os.getenv("FROM_EMAIL_ADDRESS")
-# EMAIL_PASSWORD = os.getenv("FROM_EMAIL_PASSWORD")
-# TO_EMAIL = os.getenv("TO_EMAIL_ADDRESS")  # you can change this if needed
-
-western = ZoneInfo("America/Los_Angeles")  # Adjust timezone as needed
+EMAIL_ADDRESS = os.getenv("FROM_EMAIL_ADDRESS")
+EMAIL_PASSWORD = os.getenv("FROM_EMAIL_PASSWORD")
+TO_EMAIL = os.getenv("TO_EMAIL_ADDRESS")  # you can change this if needed
 
 def fetch_readme():
     response = requests.get(REPO_RAW_URL)
@@ -60,5 +58,5 @@ def send_test_email():
     print("Test email sent!")
 
 if __name__ == "__main__":
-    send_test_email()  # Uncomment to send a test email
-    #check_for_updates()
+    #send_test_email()  # Uncomment to send a test email
+    check_for_updates()
