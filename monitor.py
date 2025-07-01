@@ -10,9 +10,9 @@ from zoneinfo import ZoneInfo
 REPO_RAW_URL = "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/main/README.md"
 STORED_FILE = "last_readme.md"
 
-EMAIL_ADDRESS = os.getenv("FROM_EMAIL_ADDRESS")
-EMAIL_PASSWORD = os.getenv("FROM_EMAIL_PASSWORD")
-TO_EMAIL = os.getenv("TO_EMAIL_ADDRESS")  # you can change this if needed
+# EMAIL_ADDRESS = os.getenv("FROM_EMAIL_ADDRESS")
+# EMAIL_PASSWORD = os.getenv("FROM_EMAIL_PASSWORD")
+# TO_EMAIL = os.getenv("TO_EMAIL_ADDRESS")  # you can change this if needed
 
 western = ZoneInfo("America/Los_Angeles")  # Adjust timezone as needed
 
@@ -21,19 +21,7 @@ def fetch_readme():
     response.raise_for_status()
     return response.text
 
-def send_email(subject, body):
-    timestamp = datetime.datetime.now(western).strftime("%Y-%m-%d %I:%M:%S %p")
-    unique_subject = f"{subject} - {timestamp}"
-
-    msg = MIMEText(body, "plain")
-    msg["Subject"] = unique_subject
-    msg["From"] = EMAIL_ADDRESS
-    msg["To"] = TO_EMAIL
-
-    with smtplib.SMTP("smtp.gmail.com", 587) as server:
-        server.starttls()
-        server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-        server.send_message(msg)
+def send_push():
 
     requests.post("https://ntfy.sh/anand_intern_alerts",
     data="New internship listing found: https://github.com/vanshb03/Summer2026-Internships".encode(encoding='utf-8'))
@@ -60,7 +48,7 @@ def check_for_updates():
             + "\n".join(new_lines)
             + "\n\nView them here: https://github.com/vanshb03/Summer2026-Internships"
         )
-        send_email("New Internship Alert", body)
+        send_push()
         print("Change detected and email sent.")
         with open(STORED_FILE, "w", encoding="utf-8") as f:
             f.write(latest)
@@ -68,11 +56,9 @@ def check_for_updates():
         print("No changes detected.")
 
 def send_test_email():
-    subject = "Test Email from Internship Monitor Script"
-    body = "This is a test email to verify the notification script works correctly."
-    send_email(subject, body)
+    send_push()
     print("Test email sent!")
 
 if __name__ == "__main__":
-    #send_test_email()  # Uncomment to send a test email
-    check_for_updates()
+    send_test_email()  # Uncomment to send a test email
+    #check_for_updates()
