@@ -46,6 +46,7 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 
 | Company | Role | Location | Application/Link | Date Posted |
 | ------- | ---- | -------- | ---------------- | ----------- |
+| Wabtec | Summer 2026 LEAD Information Technology Intern | Pittsburgh, PA</br>Chicago, IL | <a href="https://wabtec.wd1.myworkdayjobs.com/en-US/wabtec_careers/job/Summer-2026-LEAD-Information-Technology-Intern_R0099765?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 02 |
 | Susquehanna | Quantitative Strategy Developer Intern | Bala Cynwyd, PA | <a href="https://careers.sig.com/job/9532/Quantitative-Strategy-Developer-Internship-Summer-2026?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 02 |
 | Optiver | Quantitative Research Intern | Austin, TX | <a href="https://optiver.com/working-at-optiver/career-opportunities/7967593002/?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 02 |
 | ↳ | Quantitative Research Intern | Chicago, IL | <a href="https://optiver.com/working-at-optiver/career-opportunities/7832160002/?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 02 |
@@ -73,7 +74,7 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 | ↳ | Software Engineer Intern | Washington D.C, DC | <a href="https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
 | ↳ | Software Engineer Intern, Defense Tech 🇺🇸 | New York, NY | <a href="https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
 | ↳ | Software Engineer Intern, Defense Tech 🇺🇸 | Palo Alto, CA | <a href="https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
-| ↳ | Software Engineer Intern, Defense Tech 🇺🇸 | New York, NY | <a href="https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
+| ↳ | Software Engineer Intern, Defense Tech 🇺🇸 | Washington, D.C. | <a href="https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
 | ↳ | Software Engineer Intern, Production Infrastructure | New York, NY | <a href="https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
 | ↳ | Software Engineer Intern, Production Infrastructure | Seattle, WA | <a href="https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
 | Optiver | Software Engineer Intern | Austin, TX | <a href="https://optiver.com/working-at-optiver/career-opportunities/7973725002/?gh_src=9fb491cd2&utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Jul 01 |
@@ -125,7 +126,6 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 | ↳ | Quantitative Systematic Trading Intern, Masters | Bala Cynwyd, PA | <a href="https://careers.sig.com/job/9305/Quantitative-Systematic-Trading-Internship-Master-s-Summer-2026?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | May 24 |
 | Protiviti | Digital Intern 🛂 | New York, NY | <a href="https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA/job/NEW-YORK-CITY/New-York-City-Digital-Intern---2026_JR-254945?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | May 24 |
 | Point72 | Quantitative Developer Intern | New York, NY | <a href="https://job-boards.greenhouse.io/point72/jobs/7297613002?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | May 24 |
-| Lockheed Martin | Cyber Software Engineering Intern | Herndon, VA | <a href="https://www.lockheedmartinjobs.com/job/herndon/cyber-software-engineering-intern-summer-2026/694/81556994752?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | May 24 |
 | Jane Street | Tools & Compilers Research and Development Intern | New York, NY | <a href="https://www.janestreet.com/join-jane-street/position/5869205002/?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | May 24 |
 | D.E Shaw | Fundamental Research Analyst Intern | New York, NY | <a href="https://www.deshaw.com/careers/fundamental-research-analyst-intern-new-york-summer-2026-5378?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | May 24 |
 | ↳ | Proprietary Trading Intern | New York, NY | <a href="https://www.deshaw.com/careers/proprietary-trading-intern-new-york-summer-2026-5379?utm_source=ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | May 24 |
@@ -138,6 +138,7 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 | GE Appliances | Software Engineering Co-op | Louisville, KY | 🔒 | May 28 |
 | Stoke Space | Software Engineer Intern | Kent, WA | 🔒 | May 24 |
 | Simpson Gumpertz & Heger | Building Technology Intern | Washington, DC | 🔒 | May 24 |
+| Lockheed Martin | Cyber Software Engineering Intern | Herndon, VA | 🔒 | May 24 |
 | GSA Capital | Quantitative Researcher Intern | New York, NY | 🔒 | May 24 |
 | Salesforce | Software Engineer Intern - 2026 | <details><summary>**9 locations**</summary>San Francisco, CA</br>Seattle, WA</br>Palo Alto, CA</br>Atlanta, GA</br>Boston, MA</br>New York, NY</br>Burlington, MA</br>Dallas, TX</br>Indianapolis, ID</details> | 🔒 | Apr 28 |
 | Bridgewater Associates | Campus Investment Engineer Intern - 2026 | New York, NY | 🔒 | Apr 10 |
