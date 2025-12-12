@@ -46,6 +46,10 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 
 | Company | Role | Location | Application/Link | Date Posted |
 | ------- | ---- | -------- | ---------------- | ----------- |
+| Teradata | Software Engineering Intern 🇺🇸 | El Segundo, CA | <a href="https://careers.teradata.com/jobs/219629/software-engineering-intern?rx_a=0&rx_c=&rx_ch=jobp4p&rx_group=116278&rx_id=1939c199-d5f3-11f0-ac97-2324b6a741c8&rx_job=219629&rx_medium=cpc&rx_r=none&rx_source=indeed&rx_ts=20251212T080401Z&rx_vp=cpc&rx_p=GGAJDG6RO1&rx_viewer=d4ccff91228311f084244d5a84b6abced216051a192840a08f1888a15d5312b4&utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Dec 12 |
+| GM Financial | Software Development Engineer Intern 🛂 | Irving, TX | <a href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1449?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Dec 12 |
+| Docusign | Software Engineer Intern 🛂 | Seattle, WA | <a href="https://careers.docusign.com/jobs/28323?lang=en-us&previousLocale=en-US&utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Dec 12 |
+| Axiom Space | EVA Software Engineering Intern 🇺🇸 | Houston, TX | <a href="https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/EVA-Software-Engineering-Intern--Summer-2026-_JR100363?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Dec 12 |
 | Westinghouse Electric Co | Software Engineering Intern | Shoreview, US | <a href="https://careers.westinghousenuclear.com/job/Shoreview-Software-Engineering-Intern-Summer-2026-MN-55126/1348239000/?codes=IND&utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Dec 09 |
 | Viasat | Software Engineer Intern, Product Development | Carlsbad, CA | <a href="https://careers.viasat.com/jobs/5417?lang=en-us&utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Dec 09 |
 | The Walt Disney Company | Software Engineering Intern, B2B Products | Orlando, FL | <a href="https://www.disneycareers.com/en/job/-/-/391/89103818640?codes=INDEED&utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Dec 09 |
@@ -568,7 +572,6 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 | ServiceNow | AI for Security Operations Engineering Intern | San Diego, CA | <a href="https://jobs.smartrecruiters.com/ServiceNow/744000083014485?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Sep 23 |
 | Robinhood | Software Engineering Intern, Web 🛂 | Menlo Park, CA | <a href="https://job-boards.greenhouse.io/robinhood/jobs/7239280?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Sep 23 |
 | ↳ | Software Engineering Intern, iOS 🛂 | Menlo Park, CA | <a href="https://job-boards.greenhouse.io/robinhood/jobs/7239268?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Sep 23 |
-| ↳ | Software Engineering Intern, Backend 🛂 | Menlo Park, CA | <a href="https://job-boards.greenhouse.io/robinhood/jobs/7239236?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Sep 23 |
 | ↳ | Software Engineering Intern, Android | Menlo Park, CA | <a href="https://job-boards.greenhouse.io/robinhood/jobs/7239199?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Sep 23 |
 | ↳ | Software Developer Intern, Web | Toronto, Canada | <a href="https://job-boards.greenhouse.io/robinhood/jobs/7238998?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Sep 23 |
 | ↳ | Software Developer Intern, Backend | Toronto, Canada | <a href="https://job-boards.greenhouse.io/robinhood/jobs/7235228?utm_source=github-vansh-ouckah"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Sep 23 |
@@ -1428,7 +1431,8 @@ This repo is inspired by [Pitt CSC & Simplify Repo](https://github.com/SimplifyJ
 | TransPerfect | Operations Intern, Data Analytics | NYC | 🔒 | Sep 23 |
 | T. Rowe Price | Quantitative Investing Intern 🛂 | Baltimore, MD | 🔒 | Sep 23 |
 | RTX | Software Engineering Intern | Cedar Rapids, IA | 🔒 | Sep 23 |
-| Robinhood | Security Risk Management Intern | Menlo Park, CA | 🔒 | Sep 23 |
+| Robinhood | Software Engineering Intern, Backend 🛂 | Menlo Park, CA | 🔒 | Sep 23 |
+| ↳ | Security Risk Management Intern | Menlo Park, CA | 🔒 | Sep 23 |
 | ↳ | Offensive Security Intern | Toronto, Canada | 🔒 | Sep 23 |
 | ↳ | Machine Learning Engineer Intern, Applied ML 🛂 | Menlo Park, CA | 🔒 | Sep 23 |
 | ↳ | Vulnerability Management Intern | Toronto, Canada | 🔒 | Sep 23 |
